@@ -1,8 +1,17 @@
+var canvas = document.querySelector("#canvas");
+var ctx = canvas.getContext("2d");
+var mouseX = 0;
+var mouseY = 0;
+var a = 0.2;
+var t = 0;
+var aStep = Math.PI * 0.01;
+var globalHue = 0;
 
 function init() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     window.addEventListener("mousemove", function(event) {
+    console.log(event);
     mouseX = event.clientX;
     mouseY = event.clientY;
   });
