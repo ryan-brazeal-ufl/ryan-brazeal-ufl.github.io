@@ -7,14 +7,14 @@ var t = 0;
 var aStep = Math.PI * 0.01;
 var globalHue = 0;
 
-init();
+//init();
 
 function init() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    window.addEventListener("mousemove", function(e) {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
+    window.addEventListener("mousemove", function(event) {
+    mouseX = event.clientX;
+    mouseY = event.clientY;
   });
   update();
 }
