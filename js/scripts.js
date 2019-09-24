@@ -29,7 +29,7 @@ function update(){
   //aStep = (Math.sin(time * 0.01) + 1.5) * 0.25
   aStep = Math.PI * (0.375 + Math.sin(time * 0.000005) * 0.125);
   
-  globalHue +=1;
+  globalHue +=0.1;
   
   draw();
 }
