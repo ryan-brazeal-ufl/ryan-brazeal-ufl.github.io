@@ -1,13 +1,3 @@
-var canvas = document.querySelector("#canvas");
-var ctx = canvas.getContext("2d");
-var mouseX = 0;
-var mouseY = 0;
-var a = 0.2;
-var t = 0;
-var aStep = Math.PI * 0.01;
-var globalHue = 0;
-
-//init();
 
 function init() {
     canvas.width = window.innerWidth;
@@ -18,6 +8,7 @@ function init() {
   });
   update();
 }
+
 
 function update(){
   requestAnimationFrame(update);
@@ -33,6 +24,7 @@ function update(){
   
   draw();
 }
+
 
 function draw(){
   
