@@ -68,7 +68,7 @@ function draw(){
       var r = pradius + (radius - pradius) / 2;
     
       var hue = globalHue + (theta / Math.PI) * 180;
-      ctx.strokeStyle = "hsl("+ hue +", 50%, 25%)";
+      ctx.strokeStyle = "hsl("+ hue +", 10%, 10%)";
       //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
