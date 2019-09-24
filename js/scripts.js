@@ -20,7 +20,7 @@ function init() {
 
 function update(){
   requestAnimationFrame(update);
-  var time = performance.now()/60;
+  var time = performance.now()/120;
   
   // do stuff here
   a = Math.sin(2-time * 0.0001);
@@ -69,10 +69,10 @@ function draw(){
     
       //var hue = globalHue + (theta / Math.PI) * 180;
       //var hue = 150;
-        var hue = (mouseX / (2 * cx)) * 200;
-        var SandL = (mouseY / (2 * cy)) * 0.4;
+      var hue = (mouseX / (2 * cx)) * 300 + 25;
+      var SandL = (mouseY / (2 * cy)) * 30.0 + 10.0;
       //ctx.strokeStyle = "hsl("+ hue +", 15%, 15%)";
-      ctx.strokeStyle = "hsl("+ hue +","+ SandL +","+ SandL + ")";
+      ctx.strokeStyle = "hsl("+ hue +","+ String(SandL) +"%,"+ String(SandL) + "%)";
         //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
@@ -91,3 +91,5 @@ function map(value, start1, stop1, start2, stop2) {
 function clamp(value, min, max){
   return value < min ? min : value > max ? max : value
 }
+
+init();
