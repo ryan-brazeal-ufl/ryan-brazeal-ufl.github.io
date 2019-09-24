@@ -11,7 +11,6 @@ function init() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     window.addEventListener("mousemove", function(event) {
-    console.log(event);
     mouseX = event.clientX;
     mouseY = event.clientY;
   });
@@ -43,8 +42,8 @@ function draw(){
   ctx.fillRect(0,0,canvas.width,canvas.height);
   
   // line
-  var cx = window.innerWidth/2;
-  var cy = window.innerHeight/2;
+  var cx = mouseX;  //window.innerWidth/2;
+  var cy = mouseY;  //window.innerHeight/2;
   var x, y, px, py;
   var radius=0, pradius=0;
   var totalAngle = Math.PI*200;
