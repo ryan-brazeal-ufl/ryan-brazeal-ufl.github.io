@@ -29,7 +29,7 @@ function update(){
   //aStep = (Math.sin(time * 0.01) + 1.5) * 0.25
   aStep = Math.PI * (0.375 + Math.sin(time * 0.000005) * 0.125);
   
-  globalHue +=0.1;
+  globalHue +=0.5;
   
   draw();
 }
@@ -68,7 +68,7 @@ function draw(){
       var r = pradius + (radius - pradius) / 2;
     
       var hue = globalHue + (theta / Math.PI) * 180;
-      ctx.strokeStyle = "hsl("+ hue +", 100%, 50%)";
+      ctx.strokeStyle = "hsl("+ hue +", 70%, 50%)";
       //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
