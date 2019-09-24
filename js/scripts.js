@@ -42,8 +42,8 @@ function draw(){
   ctx.fillRect(0,0,canvas.width,canvas.height);
   
   // line
-  var cx = mouseX;  //window.innerWidth/2;
-  var cy = mouseY;  //window.innerHeight/2;
+  var cx = window.innerWidth/2;
+  var cy = window.innerHeight/2;
   var x, y, px, py;
   var radius=0, pradius=0;
   var totalAngle = Math.PI*200;
@@ -68,9 +68,12 @@ function draw(){
       var r = pradius + (radius - pradius) / 2;
     
       //var hue = globalHue + (theta / Math.PI) * 180;
-        var hue = 150;
-      ctx.strokeStyle = "hsl("+ hue +", 15%, 15%)";
-      //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
+      //var hue = 150;
+        var hue = (mouseX / (2 * cx)) * 200;
+        var SandL = (mouseY / (2 * cy)) * 0.4;
+      //ctx.strokeStyle = "hsl("+ hue +", 15%, 15%)";
+      ctx.strokeStyle = "hsl("+ hue +","+ SandL +","+ SandL + ")";
+        //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
       ctx.closePath();
