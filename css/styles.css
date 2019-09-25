@@ -16,6 +16,6 @@ html,body{
 	height:100%;
 }
 
-[onClick] {
+.projectTitle:hover {
     cursor:pointer;
 }
