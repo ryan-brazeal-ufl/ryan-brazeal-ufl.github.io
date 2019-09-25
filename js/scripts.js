@@ -71,11 +71,11 @@ function init() {
     });
     
     project2.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox#openpylivox"; 
     });
     
     project2Title.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox#openpylivox"; 
     });
     
     project2Title.addEventListener("mouseover", function(event){
@@ -131,11 +131,11 @@ function init() {
     });
     
     project4.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS#atlas"; 
     });
     
     project4Title.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS#atlas"; 
     });
     
     project4Title.addEventListener("mouseover", function(event){
@@ -161,11 +161,11 @@ function init() {
     });
     
     project5.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA#sigma"; 
     });
     
     project5Title.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA#sigma"; 
     });
     
     project5Title.addEventListener("mouseover", function(event){
