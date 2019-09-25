@@ -117,11 +117,11 @@ function init() {
     });
     
     project4.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS#atlas"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA#sigma"; 
     });
     
     project4Title.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS#atlas"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA#sigma"; 
     });
     
     project4Title.addEventListener("mouseover", function(event){
@@ -143,11 +143,11 @@ function init() {
     });
     
     project5.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA#sigma"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS#atlas"; 
     });
     
     project5Title.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA#sigma"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS#atlas"; 
     });
     
     project5Title.addEventListener("mouseover", function(event){
