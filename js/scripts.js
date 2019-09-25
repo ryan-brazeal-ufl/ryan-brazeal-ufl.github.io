@@ -1,4 +1,9 @@
 var canvas = document.querySelector("#canvas");
+var project1 = document.getElementById("project1");
+var project2 = document.getElementById("project2");
+var project3 = document.getElementById("project3");
+var project4 = document.getElementById("project4");
+var project5 = document.getElementById("project5");
 var ctx = canvas.getContext("2d");
 var mouseX = 0;
 var mouseY = 0;
@@ -72,8 +77,14 @@ function draw(){
       var hue = (mouseX / (2 * cx)) * 300 + 25;
       var SandL = (mouseY / (2 * cy)) * 30.0 + 10.0;
       //ctx.strokeStyle = "hsl("+ hue +", 15%, 15%)";
-      ctx.strokeStyle = "hsl("+ hue +","+ String(SandL) +"%,"+ String(SandL) + "%)";
-        //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
+      var newColor = "hsl("+ hue +","+ String(SandL) +"%,"+ String(SandL) + "%)";
+      ctx.strokeStyle = newColor;
+      project1.style.borderColor = newColor;
+      project2.style.borderColor = newColor;
+      project3.style.borderColor = newColor;
+      project4.style.borderColor = newColor;
+      project5.style.borderColor = newColor;
+      //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
       ctx.closePath();
