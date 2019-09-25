@@ -17,12 +17,12 @@ html,body{
 }
 
 .projectCircle {
-    height:20vh;
-    width:20vh;
-    //background-color:white;
-    opacity:0.8;
-    border-radius:50%;
-    border-color:white;
-    border-width:0.1vh;
-    display:inline-block;
+    height:20vh !important;
+    width:20vh !important;
+    //background-color:white !important;
+    opacity:0.8 !important;
+    border-radius:50% !important;
+    border-color:white !important;
+    border-width:0.1vh !important;
+    display:inline-block !important;
 }
