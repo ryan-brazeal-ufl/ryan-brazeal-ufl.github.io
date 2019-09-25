@@ -78,12 +78,13 @@ function draw(){
       var SandL = (mouseY / (2 * cy)) * 30.0 + 10.0;
       //ctx.strokeStyle = "hsl("+ hue +", 15%, 15%)";
       var newColor = "hsl("+ hue +","+ String(SandL) +"%,"+ String(SandL) + "%)";
+      var newColor2 = "hsl("+ hue + ", 65%, 65%)";
       ctx.strokeStyle = newColor;
-      project1.style.borderColor = newColor;
-      project2.style.borderColor = newColor;
-      project3.style.borderColor = newColor;
-      project4.style.borderColor = newColor;
-      project5.style.borderColor = newColor;
+      project1.style.borderColor = newColor2;
+      project2.style.borderColor = newColor2;
+      project3.style.borderColor = newColor2;
+      project4.style.borderColor = newColor2;
+      project5.style.borderColor = newColor2;
       //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
