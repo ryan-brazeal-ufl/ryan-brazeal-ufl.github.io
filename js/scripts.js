@@ -33,6 +33,10 @@ function init() {
        project1.style.backgroundColor = null; 
     });
     
+    project1.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+    });
+    
     project2.addEventListener("mouseover", function(event){
        project2.style.backgroundColor = getNewColor();
     });
