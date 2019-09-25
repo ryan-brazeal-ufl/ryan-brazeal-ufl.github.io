@@ -78,7 +78,7 @@ function draw(){
       var SandL = (mouseY / (2 * cy)) * 30.0 + 10.0;
       //ctx.strokeStyle = "hsl("+ hue +", 15%, 15%)";
       var newColor = "hsl("+ hue +","+ String(SandL) +"%,"+ String(SandL) + "%)";
-      var newColor2 = "hsl("+ hue + ", 65%, 65%)";
+      var newColor2 = "hsl("+ hue + ", 90%, 90%)";
       ctx.strokeStyle = newColor;
       project1.style.borderColor = newColor2;
       project2.style.borderColor = newColor2;
