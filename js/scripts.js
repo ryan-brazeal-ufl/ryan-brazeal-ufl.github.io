@@ -4,6 +4,11 @@ var project2 = document.getElementById("project2");
 var project3 = document.getElementById("project3");
 var project4 = document.getElementById("project4");
 var project5 = document.getElementById("project5");
+var project1Title = document.getElementById("project1Title");
+var project2Title = document.getElementById("project2Title");
+var project3Title = document.getElementById("project3Title");
+var project4Title = document.getElementById("project4Title");
+var project5Title = document.getElementById("project5Title");
 var ctx = canvas.getContext("2d");
 var mouseX = 0;
 var mouseY = 0;
@@ -34,8 +39,18 @@ function init() {
     });
     
     project1.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
     });
+    
+    project1Title.addEventListener("click", function(event){
+       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+    });
+    
+    project1Title.addEventListener("mouseover", function(event){
+       project1.style.backgroundColor = getNewColor();
+    });
+    
+    
     
     project2.addEventListener("mouseover", function(event){
        project2.style.backgroundColor = getNewColor();
@@ -45,6 +60,20 @@ function init() {
        project2.style.backgroundColor = null; 
     });
     
+    project2.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+    });
+    
+    project2Title.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+    });
+    
+    project2Title.addEventListener("mouseover", function(event){
+       project2.style.backgroundColor = getNewColor();
+    });
+    
+    
+    
     project3.addEventListener("mouseover", function(event){
        project3.style.backgroundColor = getNewColor();
     });
@@ -52,6 +81,20 @@ function init() {
     project3.addEventListener("mouseout", function(event){
        project3.style.backgroundColor = null; 
     });
+    
+    project3.addEventListener("click", function(event){
+       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+    });
+    
+    project3Title.addEventListener("click", function(event){
+       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+    });
+    
+    project3Title.addEventListener("mouseover", function(event){
+       project3.style.backgroundColor = getNewColor();
+    });
+    
+    
     
     project4.addEventListener("mouseover", function(event){
        project4.style.backgroundColor = getNewColor();
@@ -61,6 +104,20 @@ function init() {
        project4.style.backgroundColor = null; 
     });
     
+    project4.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS"; 
+    });
+    
+    project4Title.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/ATLAS"; 
+    });
+    
+    project4Title.addEventListener("mouseover", function(event){
+       project4.style.backgroundColor = getNewColor();
+    });
+    
+    
+    
     project5.addEventListener("mouseover", function(event){
        project5.style.backgroundColor = getNewColor();
     });
@@ -68,6 +125,20 @@ function init() {
     project5.addEventListener("mouseout", function(event){
        project5.style.backgroundColor = null; 
     });
+    
+    project5.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA"; 
+    });
+    
+    project5Title.addEventListener("click", function(event){
+       window.location.href = "https://github.com/ryan-brazeal-ufl/SIGMA"; 
+    });
+    
+    project5Title.addEventListener("mouseover", function(event){
+       project5.style.backgroundColor = getNewColor();
+    });
+    
+    
     
     update();
 }
