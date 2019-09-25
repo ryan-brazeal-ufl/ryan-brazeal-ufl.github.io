@@ -50,6 +50,10 @@ function init() {
        project1.style.backgroundColor = getNewColor();
     });
     
+    project1Title.addEventListener("mouseout", function(event){
+       project1.style.backgroundColor = null; 
+    });
+    
     
     
     project2.addEventListener("mouseover", function(event){
@@ -70,6 +74,10 @@ function init() {
     
     project2Title.addEventListener("mouseover", function(event){
        project2.style.backgroundColor = getNewColor();
+    });
+    
+    project2Title.addEventListener("mouseout", function(event){
+       project2.style.backgroundColor = null; 
     });
     
     
@@ -94,6 +102,10 @@ function init() {
        project3.style.backgroundColor = getNewColor();
     });
     
+    project3Title.addEventListener("mouseout", function(event){
+       project3.style.backgroundColor = null; 
+    });
+    
     
     
     project4.addEventListener("mouseover", function(event){
@@ -116,6 +128,10 @@ function init() {
        project4.style.backgroundColor = getNewColor();
     });
     
+    project4Title.addEventListener("mouseout", function(event){
+       project4.style.backgroundColor = null; 
+    });
+    
     
     
     project5.addEventListener("mouseover", function(event){
@@ -136,6 +152,10 @@ function init() {
     
     project5Title.addEventListener("mouseover", function(event){
        project5.style.backgroundColor = getNewColor();
+    });
+    
+    project5Title.addEventListener("mouseout", function(event){
+       project5.style.backgroundColor = null; 
     });
     
     
