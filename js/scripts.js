@@ -32,12 +32,12 @@ function init() {
   
     project1.addEventListener("mouseover", function(event){
        project1.style.backgroundColor = getNewColor();
-        project1.style.cursor = "pointer";
+        //project1.style.cursor = "pointer";
     });
     
     project1.addEventListener("mouseout", function(event){
        project1.style.backgroundColor = null;
-        project1.style.cursor = "default";
+        //project1.style.cursor = "default";
     });
     
     project1.addEventListener("click", function(event){
@@ -50,24 +50,24 @@ function init() {
     
     project1Title.addEventListener("mouseover", function(event){
        project1.style.backgroundColor = getNewColor();
-        project1.style.cursor = "pointer";
+        //project1.style.cursor = "pointer";
     });
     
     project1Title.addEventListener("mouseout", function(event){
        project1.style.backgroundColor = null;
-        project1.style.cursor = "default";
+        //project1.style.cursor = "default";
     });
     
     
     
     project2.addEventListener("mouseover", function(event){
        project2.style.backgroundColor = getNewColor();
-       project2.style.cursor = "pointer";
+       //project2.style.cursor = "pointer";
     });
     
     project2.addEventListener("mouseout", function(event){
        project2.style.backgroundColor = null;
-       project2.style.cursor = "default";
+       //project2.style.cursor = "default";
     });
     
     project2.addEventListener("click", function(event){
@@ -80,24 +80,24 @@ function init() {
     
     project2Title.addEventListener("mouseover", function(event){
        project2.style.backgroundColor = getNewColor();
-        project2.style.cursor = "pointer";
+        //project2.style.cursor = "pointer";
     });
     
     project2Title.addEventListener("mouseout", function(event){
        project2.style.backgroundColor = null; 
-        project2.style.cursor = "default";
+        //project2.style.cursor = "default";
     });
     
     
     
     project3.addEventListener("mouseover", function(event){
        project3.style.backgroundColor = getNewColor();
-        project3.style.cursor = "pointer";
+        //project3.style.cursor = "pointer";
     });
     
     project3.addEventListener("mouseout", function(event){
        project3.style.backgroundColor = null;
-        project3.style.cursor = "default";
+        //project3.style.cursor = "default";
     });
     
     project3.addEventListener("click", function(event){
@@ -110,24 +110,24 @@ function init() {
     
     project3Title.addEventListener("mouseover", function(event){
        project3.style.backgroundColor = getNewColor();
-        project3.style.cursor = "pointer";
+        //project3.style.cursor = "pointer";
     });
     
     project3Title.addEventListener("mouseout", function(event){
        project3.style.backgroundColor = null;
-        project3.style.cursor = "default";
+        //project3.style.cursor = "default";
     });
     
     
     
     project4.addEventListener("mouseover", function(event){
        project4.style.backgroundColor = getNewColor();
-        project4.style.cursor = "pointer";
+        //project4.style.cursor = "pointer";
     });
     
     project4.addEventListener("mouseout", function(event){
        project4.style.backgroundColor = null;
-        project4.style.cursor = "default";
+        //project4.style.cursor = "default";
     });
     
     project4.addEventListener("click", function(event){
@@ -140,24 +140,24 @@ function init() {
     
     project4Title.addEventListener("mouseover", function(event){
        project4.style.backgroundColor = getNewColor();
-        project4.style.cursor = "pointer";
+        //project4.style.cursor = "pointer";
     });
     
     project4Title.addEventListener("mouseout", function(event){
        project4.style.backgroundColor = null;
-        project4.style.cursor = "default";
+        //project4.style.cursor = "default";
     });
     
     
     
     project5.addEventListener("mouseover", function(event){
        project5.style.backgroundColor = getNewColor();
-        project5.style.cursor = "pointer";
+        //project5.style.cursor = "pointer";
     });
     
     project5.addEventListener("mouseout", function(event){
        project5.style.backgroundColor = null;
-        project5.style.cursor = "default";
+        //project5.style.cursor = "default";
     });
     
     project5.addEventListener("click", function(event){
@@ -170,12 +170,12 @@ function init() {
     
     project5Title.addEventListener("mouseover", function(event){
        project5.style.backgroundColor = getNewColor();
-        project5.style.cursor = "pointer";
+        //project5.style.cursor = "pointer";
     });
     
     project5Title.addEventListener("mouseout", function(event){
        project5.style.backgroundColor = null;
-        project5.style.cursor = "default";
+        //project5.style.cursor = "default";
     });
     
     
