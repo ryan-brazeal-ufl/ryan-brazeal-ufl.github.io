@@ -18,11 +18,11 @@ function init() {
     mouseY = event.clientY;
     });
   
-    project1.addEventListener("onmouseover", function(event){
+    project1.addEventListener("mouseover", function(event){
        project1.style.backgroundColor = "orange"; 
     });
     
-    project1.addEventListener("onmouseout", function(event){
+    project1.addEventListener("mouseout", function(event){
        project1.style.backgroundColor = null; 
     });
     
