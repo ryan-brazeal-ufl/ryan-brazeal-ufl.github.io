@@ -13,6 +13,7 @@ var aStep = Math.PI * 0.01;
 var globalHue = 0;
 
 function getNewColor() {
+    var cx = window.innerWidth/2;
     var hue = (mouseX / (2 * cx)) * 300 + 25;
     var newColor = "hsl("+ hue + ", 88%, 88%)";
     return newColor;
