@@ -12,6 +12,12 @@ var t = 0;
 var aStep = Math.PI * 0.01;
 var globalHue = 0;
 
+function getNewColor() {
+    var hue = (mouseX / (2 * cx)) * 300 + 25;
+    var newColor = "hsl("+ hue + ", 88%, 88%)";
+    return newColor;
+}
+
 function init() {
     window.addEventListener("mousemove", function(event) {
     mouseX = event.clientX;
@@ -19,11 +25,43 @@ function init() {
     });
   
     project1.addEventListener("mouseover", function(event){
-       project1.style.backgroundColor = "orange"; 
+       project1.style.backgroundColor = getNewColor();
     });
     
     project1.addEventListener("mouseout", function(event){
        project1.style.backgroundColor = null; 
+    });
+    
+    project2.addEventListener("mouseover", function(event){
+       project2.style.backgroundColor = getNewColor();
+    });
+    
+    project2.addEventListener("mouseout", function(event){
+       project2.style.backgroundColor = null; 
+    });
+    
+    project3.addEventListener("mouseover", function(event){
+       project3.style.backgroundColor = getNewColor();
+    });
+    
+    project3.addEventListener("mouseout", function(event){
+       project3.style.backgroundColor = null; 
+    });
+    
+    project4.addEventListener("mouseover", function(event){
+       project4.style.backgroundColor = getNewColor();
+    });
+    
+    project4.addEventListener("mouseout", function(event){
+       project4.style.backgroundColor = null; 
+    });
+    
+    project5.addEventListener("mouseover", function(event){
+       project5.style.backgroundColor = getNewColor();
+    });
+    
+    project5.addEventListener("mouseout", function(event){
+       project5.style.backgroundColor = null; 
     });
     
     update();
