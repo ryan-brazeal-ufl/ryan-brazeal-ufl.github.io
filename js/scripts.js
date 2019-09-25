@@ -16,8 +16,17 @@ function init() {
     window.addEventListener("mousemove", function(event) {
     mouseX = event.clientX;
     mouseY = event.clientY;
-  });
-  update();
+    });
+  
+    project1.addEventListener("onmouseover", function(event){
+       project1.style.backgroundColor = "orange"; 
+    });
+    
+    project1.addEventListener("onmouseout", function(event){
+       project1.style.backgroundColor = null; 
+    });
+    
+    update();
 }
 
 
