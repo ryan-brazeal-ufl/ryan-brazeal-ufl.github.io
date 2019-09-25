@@ -8,8 +8,6 @@ var aStep = Math.PI * 0.01;
 var globalHue = 0;
 
 function init() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
     window.addEventListener("mousemove", function(event) {
     mouseX = event.clientX;
     mouseY = event.clientY;
@@ -23,6 +21,8 @@ function update(){
   var time = performance.now()/120;
   
   // do stuff here
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
   a = Math.sin(2-time * 0.0001);
   t = Math.sin(2+time * 0.03);
   //aStep = (Math.sin(time * 0.01) + 1.5) * 0.25
