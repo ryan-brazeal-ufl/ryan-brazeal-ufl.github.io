@@ -65,11 +65,11 @@ function init() {
     });
     
     project2.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox#openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/OpenPyLivox#openpylivox"; 
     });
     
     project2Title.addEventListener("click", function(event){
-       window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox#openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/OpenPyLivox#openpylivox"; 
     });
     
     project2Title.addEventListener("mouseover", function(event){
