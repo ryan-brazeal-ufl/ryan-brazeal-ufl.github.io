@@ -91,11 +91,11 @@ function init() {
     });
     
     project3.addEventListener("click", function(event){
-       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/RPyLIDAR#rpylidar"; 
     });
     
     project3Title.addEventListener("click", function(event){
-       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/RPyLIDAR/#rpylidar"; 
     });
     
     project3Title.addEventListener("mouseover", function(event){
