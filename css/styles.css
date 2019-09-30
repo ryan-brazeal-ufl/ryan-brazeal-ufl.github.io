@@ -1,25 +1,313 @@
+
 html,body{
   margin:0;
   overflow:hidden;
   color: white;
   font-family: Raleway;
-  font-size: 3vh;
-}
+  font-size: 3vw;
+}    
 
 
 .topLogo {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
+    margin-top:calc((100vh - 50vw) / 2);
 	opacity:0.15;
-	border-radius:50%;
-	height:100%;
+	height:50vw;
+    width:50vw;
 }
 
-.projectTitle:hover {
+.project1 {
+    position:absolute;
+    top:calc(50vh - 24.27vw - 10vw);
+    right:calc(50vw - 17.63vw - 10vw);
+    height:20vw;
+    width:20vw;
+    opacity:0.6;
+    border-radius:50%;
+    border-color:white;
+    border-width:0.5vw;
+    border-style:solid;
+    display:inline-block;
+}
+
+.project1Title {
+    position:absolute;
+    top:calc(50vh - 24.27vw - 3.5vw);
+    right:calc(50vw - 17.63vw - 9.5vw);
+    width:20vw;
+    font-size:2.5vw;
+    display:block;
+}
+
+.project1:hover {
     cursor:pointer;
 }
 
-.project:hover {
+.project1Title:hover {
     cursor:pointer;
 }
+
+.project2 {
+    position:absolute;
+    top:calc(50vh + 9.27vw - 10vw);
+    right:calc(50vw - 28.53vw - 10vw);
+    height:20vw;
+    width:20vw;
+    opacity:0.6;
+    border-radius:50%;
+    border-color:white;
+    border-width:0.5vw;
+    border-style:solid;
+    display:inline-block;
+}
+
+.project2Title {
+    position:absolute;
+    top:calc(50vh + 9.27vw - 3.5vw);
+    right:calc(50vw - 28.53vw - 9.5vw);
+    width:20vw;
+    font-size:2.5vw;
+    display:block;
+}
+
+.project2:hover {
+    cursor:pointer;
+}
+
+.project2Title:hover {
+    cursor:pointer;
+}
+
+.project3 {
+    position:absolute;
+    top:calc(50vh + 30vw - 10vw);
+    right:calc(50vw - 10vw);
+    height:20vw;
+    width:20vw;
+    opacity:0.6;
+    border-radius:50%;
+    border-color:white;
+    border-width:0.5vw;
+    border-style:solid;
+    display:inline-block;
+}
+
+.project3Title {
+    position:absolute;
+    top:calc(50vh + 30vw - 3.5vw);
+    right:calc(50vw - 9.5vw);
+    width:20vw;
+    font-size:2.5vw;
+    display:block;
+}
+
+.project3:hover {
+    cursor:pointer;
+}
+
+.project3Title:hover {
+    cursor:pointer;
+}
+
+.project4 {
+    position:absolute;
+    top:calc(50vh + 9.27vw - 10vw);
+    right:calc(50vw + 28.53vw - 10vw);
+    height:20vw;
+    width:20vw;
+    opacity:0.6;
+    border-radius:50%;
+    border-color:white;
+    border-width:0.5vw;
+    border-style:solid;
+    display:inline-block;
+}
+
+.project4Title {
+    position:absolute;
+    top:calc(50vh + 9.27vw - 3.5vw);
+    right:calc(50vw + 28.53vw - 9.5vw);
+    width:20vw;
+    font-size:2.5vw;
+    display:block;
+}
+
+.project4:hover {
+    cursor:pointer;
+}
+
+.project4Title:hover {
+    cursor:pointer;
+}
+
+.project5 {
+    position:absolute;
+    top:calc(50vh - 24.27vw - 10vw);
+    right:calc(50vw + 17.63vw - 10vw);
+    height:20vw;
+    width:20vw;
+    opacity:0.6;
+    border-radius:50%;
+    border-color:white;
+    border-width:0.5vw;
+    border-style:solid;
+    display:inline-block;
+}
+
+.project5Title {
+    position:absolute;
+    top:calc(50vh - 24.27vw - 3.5vw);
+    right:calc(50vw + 17.63vw - 9.5vw);
+    width:20vw;
+    font-size:2.5vw;
+    display:block;
+}
+
+.project5:hover {
+    cursor:pointer;
+}
+
+.project5Title:hover {
+    cursor:pointer;
+}
+
+
+
+@media (orientation:landscape) {
+    html,body{
+    margin:0;
+    overflow:hidden;
+    color: white;
+    font-family: Raleway;
+    font-size: 3vh;
+    }   
+    
+    .topLogo {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    margin-top:25vh;
+	opacity:0.15;
+	height:50vh;
+    width:50vh;
+    }
+    
+    .project1 {
+        position:absolute;
+        top:calc(25.73vh - 10vh);
+        right:calc(50vw - 17.63vh - 10vh);
+        height:20vh;
+        width:20vh;
+        opacity:0.6;
+        border-radius:50%;
+        border-color:white;
+        border-width:0.5vh;
+        border-style:solid;
+        display:inline-block;
+    }
+
+    .project1Title {
+        position:absolute;
+        top:calc(25.73vh - 3.5vh);
+        right:calc(50vw - 17.63vh - 9.5vh);
+        width:20vh;
+        font-size:2.5vh;
+        display:block;
+    }
+
+    .project2 {
+        position:absolute;
+        top:calc(59.27vh - 10vh);
+        right:calc(50vw - 28.53vh - 10vh);
+        height:20vh;
+        width:20vh;
+        opacity:0.6;
+        border-radius:50%;
+        border-color:white;
+        border-width:0.5vh;
+        border-style:solid;
+        display:inline-block;
+    }
+
+    .project2Title {
+        position:absolute;
+        top:calc(59.27vh - 3.5vh);
+        right:calc(50vw - 28.53vh - 9.5vh);
+        width:20vh;
+        font-size:2.5vh;
+        display:block;
+    }
+    
+    .project3 {
+        position:absolute;
+        top:calc(80vh - 10vh);
+        right:calc(50vw - 10vh);
+        height:20vh;
+        width:20vh;
+        opacity:0.6;
+        border-radius:50%;
+        border-color:white;
+        border-width:0.5vh;
+        border-style:solid;
+        display:inline-block;
+    }
+
+    .project3Title {
+        position:absolute;
+        top:calc(80vh - 3.5vh);
+        right:calc(50vw - 9.5vh);
+        width:20vh;
+        font-size:2.5vh;
+        display:block;
+    }
+
+    .project4 {
+        position:absolute;
+        top:calc(59.27vh - 10vh);
+        right:calc(50vw + 28.53vh - 10vh);
+        height:20vh;
+        width:20vh;
+        opacity:0.6;
+        border-radius:50%;
+        border-color:white;
+        border-width:0.5vh;
+        border-style:solid;
+        display:inline-block;
+    }
+
+    .project4Title {
+        position:absolute;
+        top:calc(59.27vh - 3.5vh);
+        right:calc(50vw + 28.53vh - 9.5vh);
+        width:20vh;
+        font-size:2.5vh;
+        display:block;
+    }
+    
+    .project5 {
+        position:absolute;
+        top:calc(25.73vh - 10vh);
+        right:calc(50vw + 17.63vh - 10vh);
+        height:20vh;
+        width:20vh;
+        opacity:0.6;
+        border-radius:50%;
+        border-color:white;
+        border-width:0.5vh;
+        border-style:solid;
+        display:inline-block;
+    }
+
+    .project5Title {
+        position:absolute;
+        top:calc(25.73vh - 3.5vh);
+        right:calc(50vw + 17.63vh - 9.5vh);
+        width:20vh;
+        font-size:2.5vh;
+        display:block;
+    }
+    
+}
+

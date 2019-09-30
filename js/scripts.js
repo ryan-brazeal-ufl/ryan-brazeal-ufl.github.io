@@ -25,9 +25,29 @@ function getNewColor() {
 }
 
 function init() {
+    
+    mouseX = window.innerWidth/2;
+    mouseY = window.innerHeight/2;
+    
+    window.addEventListener('touchmove', function(event) {
+        event.preventDefault();
+    }, false);
+    
     window.addEventListener("mousemove", function(event) {
     mouseX = event.clientX;
     mouseY = event.clientY;
+    });
+    
+    window.addEventListener("touchstart", function(event) {
+        if (event.targetTouches.length >= 2) {
+            event.preventDefault();
+        }
+            
+        //if (event.targetTouches.length == 1) {
+        //    alert("touchstart");
+        //    mouseX = event.targetTouches[0].pageX;
+        //    mouseY = event.targetTouches[0].pageY;    
+        //}
     });
   
     project1.addEventListener("mouseover", function(event){
@@ -158,6 +178,8 @@ function init() {
        project5.style.backgroundColor = null;
     });
     
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
     update();
 }
 
@@ -167,8 +189,8 @@ function update(){
   var time = performance.now()/120;
   
   // do stuff here
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  //canvas.width = window.innerWidth * 1.0;
+  //canvas.height = window.innerHeight * 1.0;
   a = Math.sin(2-time * 0.0001);
   t = Math.sin(2+time * 0.03);
   //aStep = (Math.sin(time * 0.01) + 1.5) * 0.25
@@ -185,7 +207,8 @@ function draw(){
   // clear canvas
   
   ctx.fillStyle="#000000";
-  ctx.fillRect(0,0,canvas.width,canvas.height);
+  //ctx.fillRect(0,0,canvas.width,canvas.height);
+  ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
   
   // line
   var cx = window.innerWidth/2;
@@ -196,7 +219,8 @@ function draw(){
   for(var theta = 0; theta < totalAngle; theta+=aStep){
    
     pradius = radius;
-    radius = (t + Math.pow(2, Math.cos(theta * a))) * 200;
+    //radius = (t + Math.pow(2, Math.cos(theta * a))) * 200;
+    radius = (t + Math.pow(2, Math.cos(theta * a))) * (window.innerWidth / 3);
     px = x;
     py = y;
     x = cx + Math.cos(theta) * radius;
