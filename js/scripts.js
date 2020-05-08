@@ -59,11 +59,11 @@ function init() {
     });
     
     project1.addEventListener("click", function(event){
-       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/OpenMMS#openmms"; 
     });
     
     project1Title.addEventListener("click", function(event){
-       //window.location.href = "https://github.com/ryan-brazeal-ufl/openpylivox"; 
+       window.location.href = "https://github.com/ryan-brazeal-ufl/OpenMMS#openmms"; 
     });
     
     project1Title.addEventListener("mouseover", function(event){
