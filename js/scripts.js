@@ -4,11 +4,13 @@ var project2 = document.getElementById("project2");
 var project3 = document.getElementById("project3");
 var project4 = document.getElementById("project4");
 var project5 = document.getElementById("project5");
+var project6 = document.getElementById("project6");
 var project1Title = document.getElementById("project1Title");
 var project2Title = document.getElementById("project2Title");
 var project3Title = document.getElementById("project3Title");
 var project4Title = document.getElementById("project4Title");
 var project5Title = document.getElementById("project5Title");
+var project6Title = document.getElementById("project6Title");
 var ctx = canvas.getContext("2d");
 var mouseX = 0;
 var mouseY = 0;
@@ -177,6 +179,32 @@ function init() {
     project5Title.addEventListener("mouseout", function(event){
        project5.style.backgroundColor = null;
     });
+	
+	
+	
+	project6.addEventListener("mouseover", function(event){
+       project6.style.backgroundColor = getNewColor();
+    });
+    
+    project6.addEventListener("mouseout", function(event){
+       project6.style.backgroundColor = null;
+    });
+    
+    project6.addEventListener("click", function(event){
+       window.location.href = "https://ryan-brazeal-ufl.github.io/RubpyxRobot/"; 
+    });
+    
+    project6Title.addEventListener("click", function(event){
+       window.location.href = "https://ryan-brazeal-ufl.github.io/RubpyxRobot/"; 
+    });
+    
+    project6Title.addEventListener("mouseover", function(event){
+       project6.style.backgroundColor = getNewColor();
+    });
+    
+    project6Title.addEventListener("mouseout", function(event){
+       project6.style.backgroundColor = null;
+    });
     
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -250,6 +278,7 @@ function draw(){
       project3.style.borderColor = newColor2;
       project4.style.borderColor = newColor2;
       project5.style.borderColor = newColor2;
+	  project6.style.borderColor = newColor2;
       //ctx.lineWidth=clamp(map(r, -200, 200, 0.25, 2), 0.25, 10);
       ctx.lineWidth = .5;
       ctx.stroke();
