@@ -20,8 +20,8 @@ html,body{
 
 .project1 {
     position:absolute;
-    top:calc(50vh - 24.27vw - 10vw);
-    right:calc(50vw - 17.63vw - 10vw);
+    top:calc(50vh - 30vw - 10vw);
+    right:calc(50vw - 0vw - 10vw);
     height:20vw;
     width:20vw;
     opacity:0.6;
@@ -34,8 +34,8 @@ html,body{
 
 .project1Title {
     position:absolute;
-    top:calc(50vh - 24.27vw - 3.5vw);
-    right:calc(50vw - 17.63vw - 9.5vw);
+    top:calc(50vh - 30vw - 3.5vw);
+    right:calc(50vw - 0vw - 9.5vw);
     width:20vw;
     font-size:2.5vw;
     display:block;
@@ -51,8 +51,8 @@ html,body{
 
 .project2 {
     position:absolute;
-    top:calc(50vh + 9.27vw - 10vw);
-    right:calc(50vw - 28.53vw - 10vw);
+    top:calc(50vh - 15vw - 10vw);
+    right:calc(50vw - 25.98vw - 10vw);
     height:20vw;
     width:20vw;
     opacity:0.6;
@@ -65,8 +65,8 @@ html,body{
 
 .project2Title {
     position:absolute;
-    top:calc(50vh + 9.27vw - 3.5vw);
-    right:calc(50vw - 28.53vw - 9.5vw);
+    top:calc(50vh - 15vw - 3.5vw);
+    right:calc(50vw - 25.98vw - 9.5vw);
     width:20vw;
     font-size:2.5vw;
     display:block;
@@ -82,8 +82,8 @@ html,body{
 
 .project3 {
     position:absolute;
-    top:calc(50vh + 30vw - 10vw);
-    right:calc(50vw - 10vw);
+    top:calc(50vh + 15vw - 10vw);
+    right:calc(50vw - 25.98vw - 10vw);
     height:20vw;
     width:20vw;
     opacity:0.6;
@@ -96,8 +96,8 @@ html,body{
 
 .project3Title {
     position:absolute;
-    top:calc(50vh + 30vw - 3.5vw);
-    right:calc(50vw - 9.5vw);
+    top:calc(50vh + 15vw - 3.5vw);
+    right:calc(50vw - 25.98vw - 9.5vw);
     width:20vw;
     font-size:2.5vw;
     display:block;
@@ -113,8 +113,8 @@ html,body{
 
 .project4 {
     position:absolute;
-    top:calc(50vh + 9.27vw - 10vw);
-    right:calc(50vw + 28.53vw - 10vw);
+    top:calc(50vh + 30vw - 10vw);
+    right:calc(50vw + 0vw - 10vw);
     height:20vw;
     width:20vw;
     opacity:0.6;
@@ -127,8 +127,8 @@ html,body{
 
 .project4Title {
     position:absolute;
-    top:calc(50vh + 9.27vw - 3.5vw);
-    right:calc(50vw + 28.53vw - 9.5vw);
+    top:calc(50vh + 30vw - 3.5vw);
+    right:calc(50vw + 0vw - 9.5vw);
     width:20vw;
     font-size:2.5vw;
     display:block;
@@ -144,8 +144,8 @@ html,body{
 
 .project5 {
     position:absolute;
-    top:calc(50vh - 24.27vw - 10vw);
-    right:calc(50vw + 17.63vw - 10vw);
+    top:calc(50vh + 15vw - 10vw);
+    right:calc(50vw + 25.98vw - 10vw);
     height:20vw;
     width:20vw;
     opacity:0.6;
@@ -158,8 +158,8 @@ html,body{
 
 .project5Title {
     position:absolute;
-    top:calc(50vh - 24.27vw - 3.5vw);
-    right:calc(50vw + 17.63vw - 9.5vw);
+    top:calc(50vh + 15vw - 3.5vw);
+    right:calc(50vw + 25.98vw - 9.5vw);
     width:20vw;
     font-size:2.5vw;
     display:block;
@@ -173,7 +173,36 @@ html,body{
     cursor:pointer;
 }
 
+.project6 {
+    position:absolute;
+    top:calc(50vh - 15vw - 10vw);
+    right:calc(50vw + 25.98vw - 10vw);
+    height:20vw;
+    width:20vw;
+    opacity:0.6;
+    border-radius:50%;
+    border-color:white;
+    border-width:0.5vw;
+    border-style:solid;
+    display:inline-block;
+}
 
+.project6Title {
+    position:absolute;
+    top:calc(50vh - 15vw - 3.5vw);
+    right:calc(50vw + 25.98vw - 9.5vw);
+    width:20vw;
+    font-size:2.5vw;
+    display:block;
+}
+
+.project6:hover {
+    cursor:pointer;
+}
+
+.project6Title:hover {
+    cursor:pointer;
+}
 
 @media (orientation:landscape) {
     html,body{
@@ -196,8 +225,8 @@ html,body{
     
     .project1 {
         position:absolute;
-        top:calc(25.73vh - 10vh);
-        right:calc(50vw - 17.63vh - 10vh);
+        top:calc(20vh - 10vh);
+        right:calc(50vw - 0vh - 10vh);
         height:20vh;
         width:20vh;
         opacity:0.6;
@@ -210,8 +239,8 @@ html,body{
 
     .project1Title {
         position:absolute;
-        top:calc(25.73vh - 3.5vh);
-        right:calc(50vw - 17.63vh - 9.5vh);
+        top:calc(20vh - 3.5vh);
+        right:calc(50vw - 0vh - 9.5vh);
         width:20vh;
         font-size:2.5vh;
         display:block;
@@ -219,8 +248,8 @@ html,body{
 
     .project2 {
         position:absolute;
-        top:calc(59.27vh - 10vh);
-        right:calc(50vw - 28.53vh - 10vh);
+        top:calc(35vh - 10vh);
+        right:calc(50vw - 25.98vh - 10vh);
         height:20vh;
         width:20vh;
         opacity:0.6;
@@ -233,8 +262,8 @@ html,body{
 
     .project2Title {
         position:absolute;
-        top:calc(59.27vh - 3.5vh);
-        right:calc(50vw - 28.53vh - 9.5vh);
+        top:calc(35vh - 3.5vh);
+        right:calc(50vw - 25.98vh - 9.5vh);
         width:20vh;
         font-size:2.5vh;
         display:block;
@@ -242,8 +271,8 @@ html,body{
     
     .project3 {
         position:absolute;
-        top:calc(80vh - 10vh);
-        right:calc(50vw - 10vh);
+        top:calc(65vh - 10vh);
+        right:calc(50vw - 25.98vh - 10vh);
         height:20vh;
         width:20vh;
         opacity:0.6;
@@ -256,8 +285,8 @@ html,body{
 
     .project3Title {
         position:absolute;
-        top:calc(80vh - 3.5vh);
-        right:calc(50vw - 9.5vh);
+        top:calc(65vh - 3.5vh);
+        right:calc(50vw - 25.98vh - 9.5vh);
         width:20vh;
         font-size:2.5vh;
         display:block;
@@ -265,8 +294,8 @@ html,body{
 
     .project4 {
         position:absolute;
-        top:calc(59.27vh - 10vh);
-        right:calc(50vw + 28.53vh - 10vh);
+        top:calc(80vh - 10vh);
+        right:calc(50vw + 0vh - 10vh);
         height:20vh;
         width:20vh;
         opacity:0.6;
@@ -279,8 +308,8 @@ html,body{
 
     .project4Title {
         position:absolute;
-        top:calc(59.27vh - 3.5vh);
-        right:calc(50vw + 28.53vh - 9.5vh);
+        top:calc(80vh - 3.5vh);
+        right:calc(50vw + 0vh - 9.5vh);
         width:20vh;
         font-size:2.5vh;
         display:block;
@@ -288,8 +317,8 @@ html,body{
     
     .project5 {
         position:absolute;
-        top:calc(25.73vh - 10vh);
-        right:calc(50vw + 17.63vh - 10vh);
+        top:calc(65vh - 10vh);
+        right:calc(50vw + 25.98vh - 10vh);
         height:20vh;
         width:20vh;
         opacity:0.6;
@@ -302,8 +331,31 @@ html,body{
 
     .project5Title {
         position:absolute;
-        top:calc(25.73vh - 3.5vh);
-        right:calc(50vw + 17.63vh - 9.5vh);
+        top:calc(65vh - 3.5vh);
+        right:calc(50vw + 25.98vh - 9.5vh);
+        width:20vh;
+        font-size:2.5vh;
+        display:block;
+    }
+
+    .project6 {
+        position:absolute;
+        top:calc(35vh - 10vh);
+        right:calc(50vw + 25.98vh - 10vh);
+        height:20vh;
+        width:20vh;
+        opacity:0.6;
+        border-radius:50%;
+        border-color:white;
+        border-width:0.5vh;
+        border-style:solid;
+        display:inline-block;
+    }
+
+    .project6Title {
+        position:absolute;
+        top:calc(35vh - 3.5vh);
+        right:calc(50vw + 25.98vh - 9.5vh);
         width:20vh;
         font-size:2.5vh;
         display:block;
